@@ -1,23 +1,27 @@
 <template>
   <div id="app">
-    <Intro/>
+    <Intro />
+    <Items />
   </div>
 </template>
 
 <script>
 import Intro from './components/Intro.vue'
+import Items from './components/Items.vue'
+
 
 export default {
   name: 'app',
   components: {
-    Intro
+    Intro,
+    Items
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
