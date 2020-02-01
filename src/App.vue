@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Intro />
     <Items />
+    <Intro />
   </div>
 </template>
 
@@ -9,12 +9,16 @@
 import Intro from './components/Intro.vue'
 import Items from './components/Items.vue'
 
-
 export default {
   name: 'app',
   components: {
-    Intro,
-    Items
+    Items,
+    Intro
+  },
+  mounted () {
+    window.scrollTo(0, document.body.clientHeight);
+    // eslint-disable-next-line no-console
+    // console.log("scrolling to bottom");
   }
 }
 </script>

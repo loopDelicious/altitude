@@ -1,0 +1,49 @@
+{
+    "maxHeight": 100,
+    "items": [
+        {
+            "name": "Chihuahua dog",
+            "caption": null,
+            "altitude": "23 cm",
+            "type": "mammal",
+            "img": "https://www.stickpng.com/assets/images/580b57fbd9996e24bc43bbd0.png",
+            "positionRow": 1,
+            "rowSpan": 1,
+            "positionColumn": 1,
+            "columnSpan": 2
+        },
+        {
+            "name": "Great Dane dog",
+            "caption": null,
+            "altitude": "91 cm",
+            "type": "mammal",
+            "img": "https://purepng.com/public/uploads/medium/11499002680li0jkobtbnkl3mksmnte1oki8mlzrlvqbul54nvacy3cla7ttmzyj5bv474v1iedvdne14fspblnrenk4zjvrbuur6oek4puk0xc.png",
+            "positionRow": 2,
+            "rowSpan": 2,
+            "positionColumn": 5,
+            "columnSpan": 2
+        },
+        {
+            "name": "Human female",
+            "caption": null,
+            "altitude": "164 cm",
+            "type": "mammal",
+            "img": "https://purepng.com/public/uploads/medium/11499002680li0jkobtbnkl3mksmnte1oki8mlzrlvqbul54nvacy3cla7ttmzyj5bv474v1iedvdne14fspblnrenk4zjvrbuur6oek4puk0xc.png",
+            "positionRow": 4,
+            "rowSpan": 2,
+            "positionColumn": 1,
+            "columnSpan": 2
+        },
+        {
+            "name": "Human male",
+            "caption": null,
+            "altitude": "167 cm",
+            "type": "mammal",
+            "img": "https://purepng.com/public/uploads/medium/11499002680li0jkobtbnkl3mksmnte1oki8mlzrlvqbul54nvacy3cla7ttmzyj5bv474v1iedvdne14fspblnrenk4zjvrbuur6oek4puk0xc.png",
+            "positionRow": 4,
+            "rowSpan": 2,
+            "positionColumn": 2,
+            "columnSpan": 2
+        }
+    ]
+}
