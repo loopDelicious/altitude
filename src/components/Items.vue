@@ -11,24 +11,41 @@
                 </div>
             </div>
         </div>
+        <Altimeter />
     </div>
 </template>
 
-<script src="./items.js">
-// export default {
-//     methods: {
-//         handleScroll (event) {
-//         // Any code to be executed when the window is scrolled
+<script>
 
-//         }
-//     },
-//     created () {
-//         window.addEventListener('scroll', this.handleScroll);
-//     },
-//     destroyed () {
-//         window.removeEventListener('scroll', this.handleScroll);
-//     }
-// }
+import Altimeter from './Altimeter.vue'
+import data from '../data/items.json'
+
+export default {
+  name: 'Items',
+  components: {
+    Altimeter
+  },
+  data () {
+    return {
+        data: data,
+    }
+  },
+  methods: {
+    handleScroll () {
+    // Any code to be executed when the window is scrolled
+        window.scroll();
+        
+        // eslint-disable-next-line no-console
+        console.log("scrolling");
+    },
+    created () {
+        window.addEventListener('scroll', this.handleScroll);
+    },
+    destroyed () {
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+  }
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -72,6 +89,9 @@
     max-height: 100%;
     height: 100%;
     object-fit: contain;
+}
+.item-name {
+    text-transform: uppercase;
 }
 .item-caption {
     font-size: 16px;
